@@ -1,8 +1,17 @@
 <template>
-    <div>
+    <div class="min-h-dvh flex flex-col">
         <NavBar />
-        <main>
+        <main class="flex-1">
             <slot />
         </main>
+        <footer class="border-t">
+            <div class="mx-auto max-w-7xl px-4 py-6 text-sm text-gray-600">
+                © 2025 Candi Ijo. All Rights Reserved.
+            </div>
+        </footer>
     </div>
 </template>
+
+<script setup>
+import NavBar from '~/components/NavBar.vue'
+</script>

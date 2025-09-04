@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/tailwindcss'
   ],
   css: ["~/assets/css/main.css"],
 })
