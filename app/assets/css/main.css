@@ -1,5 +1,56 @@
+html,
 body {
-    font-family: system-ui, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: "Lowan Old Style", serif;
+    line-height: 1.6;
+    color: #111;
+    /* biar teks default hitam pekat */
+    background-color: #fff;
+    /* background putih */
+}
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-bt-586c36a8d7712.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style Italic BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style Italic BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-italic-bt-586c3740dc396.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style Bold BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style Bold BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-bold-bt-586c371d8d669.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style Bold Italic BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style Bold Italic BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-bold-italic-bt-586c37701cb62.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style Black BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style Black BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-black-bt-586c36e930225.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Bitstream Iowan Old Style Black Italic BT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bitstream Iowan Old Style Black Italic BT'), url('@/assets/fonts/iowanoldst-bt-webfont/bitstream-iowan-old-style-black-italic-bt-586c378f12ca1.woff') format('woff');
 }

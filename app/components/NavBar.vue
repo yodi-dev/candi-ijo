@@ -1,7 +1,7 @@
 <template>
     <nav class="border-b bg-white/80 backdrop-blur">
         <div class="mx-auto max-w-7xl px-4 py-3 flex items-center gap-6">
-            <NuxtLink to="/" class="font-semibold">🌿 Candi Ijo</NuxtLink>
+            <NuxtLink to="/" class="text-xl font-semibold">🌿 Candi Ijo</NuxtLink>
             <ul class="flex flex-wrap gap-4 text-sm">
                 <li v-for="l in links" :key="l.to">
                     <NuxtLink :to="l.to" :class="[
