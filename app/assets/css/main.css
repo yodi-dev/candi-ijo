@@ -1,6 +1,9 @@
 html,
 body {
-    font-family: "Lowan Old Style", serif;
+    font-family: "Lowan Old Style",
+        Georgia,
+        'Times New Roman',
+        serif;
     line-height: 1.6;
     color: #111;
     /* biar teks default hitam pekat */
