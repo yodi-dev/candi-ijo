@@ -4,11 +4,11 @@
         <main class="flex-1">
             <slot />
         </main>
-        <footer class="border-t">
+        <Footer>
             <div class="mx-auto max-w-7xl px-4 py-6 text-sm text-gray-600">
                 © 2025 Candi Ijo. All Rights Reserved.
             </div>
-        </footer>
+        </Footer>
     </div>
 </template>
 

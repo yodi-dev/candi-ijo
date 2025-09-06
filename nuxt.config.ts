@@ -9,5 +9,5 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/tailwindcss'
   ],
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", 'remixicon/fonts/remixicon.css'],
 })
