@@ -1,6 +1,6 @@
 <template>
     <footer class="bg-white text-gray-800">
-        <div class="mx-auto max-w-7xl px-6 lg:px-40 py-8 space-y-12">
+        <div class="mx-auto max-w-7xl px-6 lg:px-36 py-8 space-y-12">
 
             <!-- Baris pertama -->
             <div class="flex flex-col md:flex-row items-center justify-between border-b border-black">
@@ -25,11 +25,11 @@
 
                 <!-- Sosmed -->
                 <div class="flex gap-4 text-xl">
-                    <a href="#" class="text-pink-500"><i class="ri-instagram-fill"></i></a>
-                    <a href="#" class="text-blue-600"><i class="ri-facebook-circle-fill"></i></a>
-                    <a href="#" class="text-red-500"><i class="ri-youtube-fill"></i></a>
-                    <a href="#" class="text-black"><i class="ri-tiktok-fill"></i></a>
-                    <a href="#" class="text-gray-700"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="#" class="hover:text-pink-500"><i class="ri-instagram-fill"></i></a>
+                    <a href="#" class="hover:text-blue-600"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#" class="hover:text-red-500"><i class="ri-youtube-fill"></i></a>
+                    <a href="#" class="hover:text-black"><i class="ri-tiktok-fill"></i></a>
+                    <a href="#" class="hover:text-gray-700"><i class="ri-twitter-x-fill"></i></a>
                 </div>
             </div>
 

@@ -21,6 +21,6 @@
 defineProps<{
     title: string
     subtitle?: string
-    background: string // kirim path atau import di parent
+    background: string
 }>()
 </script>
