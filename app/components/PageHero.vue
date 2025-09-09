@@ -1,12 +1,15 @@
 <template>
-    <section class="px-4 py-10 md:py-14">
-        <div class="mx-auto max-w-5xl">
-            <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">
-                {{ title }}
-            </h1>
-            <p v-if="subtitle" class="mt-3 text-gray-600 max-w-3xl">
-                {{ subtitle }}
-            </p>
+    <section class="relative h-[80vh] flex items-center justify-center text-center text-white">
+        <!-- Background -->
+        <div class="absolute inset-0 bg-cover bg-center" :style="{ backgroundImage: `url(${background})` }">
+            <!-- Overlay -->
+            <!-- <div class="absolute inset-0 bg-black/50"></div> -->
+        </div>
+
+        <!-- Content -->
+        <div class="relative px-4">
+            <h1 class="text-3xl md:text-4xl font-medium drop-shadow mt-24 mb-12">{{ title }}</h1>
+            <p class="mt-4 max-w-2xl mx-auto text-base md:text-lg text-gray-200">{{ subtitle }}</p>
             <div class="mt-6">
                 <slot />
             </div>
@@ -15,8 +18,9 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+defineProps<{
     title: string
     subtitle?: string
+    background: string // kirim path atau import di parent
 }>()
 </script>

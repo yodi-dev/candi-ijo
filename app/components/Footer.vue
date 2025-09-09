@@ -18,7 +18,7 @@
                         </defs>
                     </svg>
                     <div class="flex items-center">
-                        <span class="border-l border-black h-12 ms-4 me-7"></span>
+                        <span class="border-l border-black h-10 ms-4 me-7"></span>
                         <h2 class="text-xl font-semibold ps-4">Candi Ijo</h2>
                     </div>
                 </div>

@@ -13,7 +13,7 @@
                     <NuxtLink :to="l.to" :class="[
                         'px-2 py-1 rounded transition-colors',
                         route.path === l.to
-                            ? 'text-green-400 font-semibold'
+                            ? 'text-green-400 font-medium'
                             : 'text-gray-200 hover:text-white hover:bg-white/10'
                     ]">
                         {{ l.label }}
