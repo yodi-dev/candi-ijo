@@ -42,4 +42,178 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
     </section>
 
+    <!-- Image -->
+    <img src="/images/candi-ijo-4.webp" alt="Candi Ijo Menyapa"
+        class="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover my-12" />
+
+    <section class="max-w-6xl mx-auto px-6 md:px-12 lg:px-24 py-16">
+
+        <!-- Text -->
+        <div>
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6">Candi Ijo Menyapa</h2>
+            <p class="text-gray-700 leading-relaxed space-y-4">
+                Dengan penuh rasa hormat, kami mengundang Anda untuk menelusuri salah satu warisan bersejarah
+                paling berharga di Daerah Istimewa Yogyakarta. Terletak di ketinggian sekitar 375 meter di atas
+                permukaan laut,
+                Candi Ijo dikenal sebagai kompleks percandian tertinggi di Yogyakarta yang menyajikan pemandangan megah
+                sekaligus kisah peradaban yang agung.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-4">
+                Candi Ijo dibangun pada masa Mataram Kuno sekitar abad ke-9 Masehi. Setiap batu yang tersusun di sini
+                tidak hanya menjadi saksi bisu perkembangan agama Hindu di Nusantara, tetapi juga menyimpan simbol
+                kebijaksanaan,
+                spiritualitas, dan kehidupan masyarakat pada zamannya.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-4">
+                Di balik relief-relief dan arsitekturnya, kita dapat menemukan nilai filosofi yang mendalam, sekaligus
+                pesan
+                tentang harmoni antara manusia, alam, dan Sang Pencipta. Melalui situs ini, kami berkomitmen untuk
+                menghadirkan
+                informasi yang lengkap, mulai dari sejarah, arsitektur, hingga kegiatan budaya yang dapat Anda saksikan
+                di sekitar
+                kompleks percandian.
+            </p>
+            <p class="text-gray-700 leading-relaxed mt-4">
+                Lebih dari sekadar destinasi wisata, Candi Ijo adalah ruang belajar, tempat renungan, dan simbol jati
+                diri bangsa.
+                Kami percaya, dengan mengenal dan mencintai warisan budaya, kita dapat lebih menghargai perjalanan
+                panjang sejarah
+                Indonesia. Akhir kata, mari bersama menjaga, merawat, dan melestarikan Candi Ijo, agar pesonanya tetap
+                abadi untuk
+                generasi mendatang.
+            </p>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 md:px-12 lg:px-24 py-20">
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-semibold mb-6">Sejarah dan Arsitektur</h2>
+
+        <!-- Description -->
+        <p class="text-gray-700 leading-relaxed mb-12">
+            Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan Hijau di sisi timur Yogyakarta,
+            tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
+            candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat menikmati
+            pemandangan luas hamparan sawah, perkotaan, hingga garis cakrawala yang kerap dipenuhi gumapalan awan putih
+            seakan berada begitu dekat. Saat pagi atau sore hari, suasana menjadi semakin magis dengan cahaya matahari
+            yang
+            menyinari setiap sudut bangunan. Selain keindahan alamnya, Candi Ijo juga menyimpan nilai sejarah dan
+            arsitektur
+            khas abad ke-9, menjadikannya destinasi yang memadukan pesona alam dan warisan budaya.
+            <span class="italic">Baca selengkapnya…</span>
+        </p>
+
+        <!-- Card Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <!-- Card -->
+            <div
+                class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-2">
+                <img src="/images/candi-ijo-7.webp" alt="Sejarah"
+                    class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2 text-gray-800">Sejarah</h3>
+                    <p class="text-sm text-gray-600">Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo</p>
+                </div>
+            </div>
+
+            <div
+                class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-2">
+                <img src="/images/candi-ijo-6.webp" alt="Arsitektur"
+                    class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2 text-gray-800">Arsitektur</h3>
+                    <p class="text-sm text-gray-600">Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo</p>
+                </div>
+            </div>
+
+            <div
+                class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-2">
+                <img src="/images/hero-candi-ijo.webp" alt="Panduan Wisata"
+                    class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2 text-gray-800">Panduan Wisata</h3>
+                    <p class="text-sm text-gray-600">Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo</p>
+                </div>
+            </div>
+
+            <div
+                class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden hover:-translate-y-2">
+                <img src="/images/candi-ijo-5.webp" alt="Event"
+                    class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                <div class="p-4">
+                    <h3 class="font-semibold mb-2 text-gray-800">Event</h3>
+                    <p class="text-sm text-gray-600">Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="text-center">
+            <a href="#jelajahi"
+                class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg transition">
+                Yuk Jelajahi
+            </a>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <!-- Left Content -->
+        <div>
+            <h2 class="text-3xl md:text-4xl font-semibold mb-6">Candi Diatas Awan</h2>
+            <p class="text-gray-700 leading-relaxed">
+                Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan hijau di sisi timur Yogyakarta,
+                tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
+                candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat
+                menikmati
+                pemandangan luas hamparan sawah, perbukitan, hingga garis cakrawala yang kerap dipenuhi gumpalan awan
+                putih
+                seakan berada begitu dekat. Saat pagi atau sore hari, suasana menjadi semakin magis dengan cahaya
+                matahari
+                yang berpadu dengan udara sejuk pegunungan. Selain keindahan alamnya, Candi Ijo juga menyimpan nilai
+                sejarah
+                dan arsitektur khas abad ke-9, menjadikannya destinasi yang memadukan pesona alam dan warisan budaya.
+            </p>
+        </div>
+
+        <!-- Right Content -->
+        <div class="space-y-8">
+            <!-- Card 1 -->
+            <div class="flex items-start gap-4">
+                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <p class="text-sm text-gray-600">
+                        Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
+                        Yogyakarta.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex items-start gap-4">
+                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <p class="text-sm text-gray-600">
+                        Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
+                        Yogyakarta.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex items-start gap-4">
+                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <div>
+                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <p class="text-sm text-gray-600">
+                        Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
+                        Yogyakarta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </template>
