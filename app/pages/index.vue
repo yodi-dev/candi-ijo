@@ -156,11 +156,13 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
     </section>
 
-    <section class="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 py-20 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+    <h2 class="text-3xl md:text-4xl font-semibold ms-36 mt-12">Candi Diatas Awan</h2>
+    <section class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-5 gap-12 items-start">
         <!-- Left Content -->
-        <div>
-            <h2 class="text-3xl md:text-4xl font-semibold mb-6">Candi Diatas Awan</h2>
-            <p class="text-gray-700 leading-relaxed">
+        <div class="col-span-3">
+            <!-- Image -->
+            <img src="/images/candi-ijo-2.webp" alt="Candi Ijo Menyapa" class="w-full rounded-r-xl object-cover" />
+            <p class="text-gray-700 leading-relaxed mt-16 ms-36">
                 Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan hijau di sisi timur Yogyakarta,
                 tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
                 candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat
@@ -176,12 +178,14 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
 
         <!-- Right Content -->
-        <div class="space-y-8">
+        <div class="space-y-12 col-span-2 pe-36">
             <!-- Card 1 -->
             <div class="flex items-start gap-4">
-                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <img src="/images/candi-di-atas.webp" alt="Candi Ijo"
+                    class="w-40 h-40 rounded-xl object-cover shrink-0">
                 <div>
-                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <h3 class="font-semibold text-md mb-1">Candi Diatas Awan</h3>
+
                     <p class="text-sm text-gray-600">
                         Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
                         Yogyakarta.
@@ -191,9 +195,9 @@ const heroBg = 'images/hero-candi-ijo.webp'
 
             <!-- Card 2 -->
             <div class="flex items-start gap-4">
-                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <img src="/images/candi-ijo-3.webp" alt="Candi Ijo" class="w-40 h-40 rounded-xl object-cover shrink-0">
                 <div>
-                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <h3 class="font-semibold text-md mb-1">Candi Diatas Awan</h3>
                     <p class="text-sm text-gray-600">
                         Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
                         Yogyakarta.
@@ -203,9 +207,10 @@ const heroBg = 'images/hero-candi-ijo.webp'
 
             <!-- Card 3 -->
             <div class="flex items-start gap-4">
-                <img src="/images/candi-ijo-1.webp" alt="Candi Ijo" class="w-28 h-28 rounded-xl object-cover shrink-0">
+                <img src="/images/hero-candi-ijo.webp" alt="Candi Ijo"
+                    class="w-40 h-40 rounded-xl object-cover shrink-0">
                 <div>
-                    <h3 class="font-semibold text-lg mb-1">Candi Diatas Awan</h3>
+                    <h3 class="font-semibold text-md mb-1">Candi Diatas Awan</h3>
                     <p class="text-sm text-gray-600">
                         Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
                         Yogyakarta.
