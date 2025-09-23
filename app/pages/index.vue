@@ -220,5 +220,37 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
     </section>
 
+    <h2 class="text-3xl md:text-4xl font-semibold ms-36 mt-12">Sunset di Candi Ijo</h2>
+    <section class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-11 gap-8 items-start">
+        <!-- Left Content -->
+        <div class="col-span-4">
+            <p class="text-gray-700 leading-relaxed ms-36">
+                Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan hijau di sisi timur Yogyakarta,
+                tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
+                candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat
+                menikmati
+                pemandangan luas hamparan sawah, perbukitan, hingga garis cakrawala yang kerap dipenuhi gumpalan awan
+                putih
+                seakan berada begitu dekat. Saat pagi atau sore hari, suasana menjadi semakin magis dengan cahaya
+                matahari
+                yang berpadu dengan udara sejuk pegunungan. Selain keindahan alamnya, Candi Ijo juga menyimpan nilai
+                sejarah
+                dan arsitektur khas abad ke-9, menjadikannya destinasi yang memadukan pesona alam dan warisan budaya.
+            </p>
+        </div>
+
+        <div class="col-span-2">
+            <img src="/images/sunset-1.webp" alt="Candi Ijo Menyapa" class="w-52 h-52 rounded-xl object-cover" />
+            <!-- Image -->
+
+        </div>
+
+        <!-- Right Content -->
+        <div class="col-span-5">
+            <img src="/images/sunset.webp" alt="Candi Ijo Menyapa" class="h-screen object-cover rounded-l-xl"
+                style="object-position: 40% 0;" />
+        </div>
+    </section>
+
 
 </template>
