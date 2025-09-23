@@ -238,7 +238,7 @@ const heroBg = 'images/hero-candi-ijo.webp'
             </p>
         </div>
 
-        <div class="col-span-2 px-6">
+        <div class="col-span-2 px-6 md:px-0">
             <img src="/images/sunset-1.webp" alt="Candi Ijo Menyapa" class="w-52 h-52 rounded-xl object-cover" />
             <!-- Image -->
             <!-- CTA Button -->
