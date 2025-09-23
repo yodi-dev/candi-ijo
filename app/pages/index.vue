@@ -150,19 +150,19 @@ const heroBg = 'images/hero-candi-ijo.webp'
         <!-- CTA Button -->
         <div class="text-center">
             <a href="#jelajahi"
-                class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg transition">
+                class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 italic px-8 rounded-full shadow-md hover:shadow-lg transition">
                 Yuk Jelajahi
             </a>
         </div>
     </section>
 
-    <h2 class="text-3xl md:text-4xl font-semibold ms-36 mt-12">Candi Diatas Awan</h2>
+    <h2 class="text-3xl md:text-4xl font-semibold ms-6 md:ms-36 mt-12">Candi Diatas Awan</h2>
     <section class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-5 gap-12 items-start">
         <!-- Left Content -->
         <div class="col-span-3">
             <!-- Image -->
-            <img src="/images/candi-ijo-2.webp" alt="Candi Ijo Menyapa" class="w-full rounded-r-xl object-cover" />
-            <p class="text-gray-700 leading-relaxed mt-16 ms-36">
+            <img src="/images/candi-ijo-2.webp" alt="Candi Ijo Menyapa" class="w-full md:rounded-r-xl object-cover" />
+            <p class="text-gray-700 leading-relaxed mt-16 px-6 md:ms-36">
                 Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan hijau di sisi timur Yogyakarta,
                 tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
                 candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat
@@ -178,14 +178,13 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
 
         <!-- Right Content -->
-        <div class="space-y-12 col-span-2 pe-36">
+        <div class="space-y-12 col-span-2 px-6 md:pe-36">
             <!-- Card 1 -->
             <div class="flex items-start gap-4">
                 <img src="/images/candi-di-atas.webp" alt="Candi Ijo"
                     class="w-40 h-40 rounded-xl object-cover shrink-0">
                 <div>
                     <h3 class="font-semibold text-md mb-1">Candi Diatas Awan</h3>
-
                     <p class="text-sm text-gray-600">
                         Di atas punggung Bukit Ijo yang tinggi, berdirilah Candi Ijo, salah satu candi Hindu tertua di
                         Yogyakarta.
@@ -220,11 +219,11 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
     </section>
 
-    <h2 class="text-3xl md:text-4xl font-semibold ms-36 mt-12">Sunset di Candi Ijo</h2>
+    <h2 class="text-3xl md:text-4xl font-semibold ms-6 md:ms-36 mt-12">Sunset di Candi Ijo</h2>
     <section class="max-w-7xl mx-auto py-20 grid grid-cols-1 md:grid-cols-11 gap-8 items-start">
         <!-- Left Content -->
         <div class="col-span-4">
-            <p class="text-gray-700 leading-relaxed ms-36">
+            <p class="text-gray-700 leading-relaxed px-6 md:ms-36">
                 Candi Ijo adalah sebuah kompleks candi Hindu yang terletak di perbukitan hijau di sisi timur Yogyakarta,
                 tepatnya di Desa Sambirejo, Prambanan. Berdiri di ketinggian sekitar 375 meter di atas permukaan laut,
                 candi ini menjadi salah satu titik tertinggi di wilayah sekitarnya. Dari sini, pengunjung dapat
@@ -239,15 +238,21 @@ const heroBg = 'images/hero-candi-ijo.webp'
             </p>
         </div>
 
-        <div class="col-span-2">
+        <div class="col-span-2 px-6">
             <img src="/images/sunset-1.webp" alt="Candi Ijo Menyapa" class="w-52 h-52 rounded-xl object-cover" />
             <!-- Image -->
-
+            <!-- CTA Button -->
+            <div class="text-center mt-32">
+                <a href="#jelajahi"
+                    class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold italic py-2 px-8 rounded-full shadow-md hover:shadow-lg transition">
+                    Yuk Jelajahi
+                </a>
+            </div>
         </div>
 
         <!-- Right Content -->
         <div class="col-span-5">
-            <img src="/images/sunset.webp" alt="Candi Ijo Menyapa" class="h-screen object-cover rounded-l-xl"
+            <img src="/images/sunset.webp" alt="Candi Ijo Menyapa" class="h-screen object-cover md:rounded-l-xl"
                 style="object-position: 40% 0;" />
         </div>
     </section>
