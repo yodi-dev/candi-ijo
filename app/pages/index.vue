@@ -257,5 +257,17 @@ const heroBg = 'images/hero-candi-ijo.webp'
         </div>
     </section>
 
+    <section class="relative h-lvh flex items-top justify-center text-center text-white">
+        <!-- Background -->
+        <div class="absolute inset-0 bg-cover bg-[url(/images/index-section.webp)]">
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/20"></div>
+        </div>
 
+        <!-- Content -->
+        <div class="relative">
+            <h1 class="text-2xl md:text-3xl font-medium drop-shadow mt-36">Candi Dengan Segala <br>Pemandangan
+                Yang Indah</h1>
+        </div>
+    </section>
 </template>
